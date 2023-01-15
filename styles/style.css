@@ -117,25 +117,36 @@ h2.title {
 }
 
 /*WAITING-SECTION*/
+.waiting {
+    height: 604px;
+    background-color: #EFEFEF;
+    padding: 85px 0 75px 0;
+}
 
 .waiting .waiting_header {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 30px;
     text-align: center;
     text-transform: uppercase;
     color: #252525;
-    margin-top: 85px;
 }
+
+.waiting .waiting_divider {
+    width: 220px;
+    height: 7px;
+    background: #F9BF3B;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
 .waiting .waiting_subheader {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
-    line-height: 20px;
     text-align: center;
     color: #4A4A4A;
-    margin-top: 44px;
+    margin-top: 18px;
 }
