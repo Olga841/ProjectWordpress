@@ -263,3 +263,43 @@ h2.title {
     text-align: center;
     color: #252525;
 }
+
+/*FIRST*/
+.first {
+    min-height: 494px;
+}
+
+.first .first_img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 89px;
+}
+.first .first_header {
+    margin-top: 36px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+}
+.first .first_title {
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+
+.first .first_descr {
+    margin-top: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+
