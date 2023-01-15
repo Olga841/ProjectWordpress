@@ -302,4 +302,34 @@ h2.title {
     color: #4A4A4A;
 }
 
+/*FOOTER*/
+.footer {
+    min-height: 169px;
+    background-color: #1A1A1A;
+}
+
+.footer .footer_wrapper {
+    margin: 0 auto;
+    padding-top: 57px;
+    text-align: center;
+}
+
+.footer .footer_wrapper .footer_link {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #888888;
+}
+.footer .footer_wrapper .footer_phone {
+    margin-top: 3px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    color: #888888;
+}
+
+
 
