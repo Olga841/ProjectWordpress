@@ -118,7 +118,7 @@ h2.title {
 
 /*WAITING-SECTION*/
 .waiting {
-    height: 604px;
+   min-height: 604px;
     background-color: #EFEFEF;
     padding: 85px 0 75px 0;
 }
@@ -152,13 +152,13 @@ h2.title {
 }
 
 .waiting .waiting_wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     margin-top: 45px;
 }
 
 .waiting .waiting_wraper .waiting_item {
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 4px;
     width: 369px;
     text-align: center;
 }
