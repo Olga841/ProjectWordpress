@@ -218,3 +218,37 @@ h2.title {
 .finish .finish_header {
     color: #EFEFEF;
 }
+.finish .finish_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 39px;
+}
+.finish .finish_wrapper .finish_item {
+    width: 234px;
+    align-content: center;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 118px;
+    height: 118px;
+    border-radius: 100%;
+    background-color: #B4E2FF;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+    margin-top: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #EFEFEF;
+}
