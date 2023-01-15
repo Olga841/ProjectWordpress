@@ -4,6 +4,9 @@
     padding: 0;
 }
 
+html {
+    font-family: 'Roboto'
+}
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -23,7 +26,6 @@
 }
 
 .logo .logo_text {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -43,7 +45,6 @@ h2.title {
 }
 
 .title {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
     font-size: 41px;
@@ -54,7 +55,6 @@ h2.title {
 }
 
 .simple .title_big {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
     font-size: 80px;
@@ -66,7 +66,6 @@ h2.title {
 }
 
 .promo .promo_text {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
     font-size: 21px;
@@ -101,7 +100,6 @@ h2.title {
 }
 
 .promo .more .more_text {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 100;
     font-size: 15px;
@@ -124,7 +122,6 @@ h2.title {
 }
 
 .waiting .waiting_header, .finish .finish_header {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -142,7 +139,6 @@ h2.title {
 }
 
 .waiting .waiting_subheader {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
@@ -167,7 +163,6 @@ h2.title {
 }
 .waiting .waiting_wraper .waiting_item .waiting_text {
     margin-top: 26px;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
@@ -182,7 +177,6 @@ h2.title {
 }
 .optimization .optimization_header {
     margin-left: 391px;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
     font-size: 30px;
@@ -192,7 +186,6 @@ h2.title {
 .optimization .optimization_text {
     margin-top: 25px;
     margin-left: 391px;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
     font-size: 17px;
@@ -226,7 +219,7 @@ h2.title {
 }
 .finish .finish_wrapper .finish_item {
     width: 234px;
-    align-content: center;
+    align-content: flex-start;
 }
 
 .finish .finish_wrapper .finish_item .finish_round {
@@ -242,7 +235,6 @@ h2.title {
 
 .finish .finish_wrapper .finish_item .finish_descr {
     margin-top: 25px;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
     font-size: 17px;
