@@ -5,7 +5,7 @@
 }
 
 html {
-    font-family: 'Roboto'
+    font-family: 'Roboto', sans-serif;
 }
 .container {
     width: 1140px;
@@ -88,11 +88,11 @@ h2.title {
     left: 805px;
     top: 551px;
     background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-size: 20px;
     text-transform: uppercase;
     color: #FFFFFF;
-    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.22);
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0.22);
     cursor: pointer;
     outline: none;
 }
@@ -145,21 +145,21 @@ h2.title {
     margin-top: 18px;
 }
 
-.waiting .waiting_wraper {
+.waiting .waiting_wrapper {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 45px;
 }
 
-.waiting .waiting_wraper .waiting_item {
+.waiting .waiting_wrapper .waiting_item {
     width: 369px;
     text-align: center;
 }
-.waiting .waiting_wraper .waiting_item .waiting_img {
+.waiting .waiting_wrapper .waiting_item .waiting_img {
     width: 100%;
 }
-.waiting .waiting_wraper .waiting_item .waiting_text {
+.waiting .waiting_wrapper .waiting_item .waiting_text {
     margin-top: 26px;
     font-style: normal;
     font-weight: 300;
