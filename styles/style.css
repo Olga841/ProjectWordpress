@@ -150,3 +150,26 @@ h2.title {
     color: #4A4A4A;
     margin-top: 18px;
 }
+
+.waiting .waiting_wraper {
+    margin-top: 45px;
+}
+
+.waiting .waiting_wraper .waiting_item {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 4px;
+    width: 369px;
+    text-align: center;
+}
+.waiting .waiting_wraper .waiting_item .waiting_img {
+    width: 100%;
+}
+.waiting .waiting_wraper .waiting_item .waiting_text {
+    margin-top: 26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+}
