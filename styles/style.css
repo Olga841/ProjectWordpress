@@ -80,7 +80,7 @@ h2.title {
     color: #F9BF3B;
 }
 
-.promo .promo_btn {
+.promo .promo_btn, .gift .gift_btn {
     display: block;
     margin: 73px auto;
     width: 313px;
@@ -88,13 +88,11 @@ h2.title {
     left: 805px;
     top: 551px;
     background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
-    font-family: 'Roboto Condensed';
-    font-size: 21px;
-    line-height: 24px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
     text-transform: uppercase;
     color: #FFFFFF;
-    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.22);
     cursor: pointer;
     outline: none;
 }
@@ -243,4 +241,25 @@ h2.title {
     align-items: center;
     text-align: center;
     color: #EFEFEF;
+}
+/*GIFT*/
+.gift {
+    min-height: 631px;
+    background-color: #EFEFEF;
+}
+
+.gift .gift_img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 85px;
+}
+
+.gift .gift_desc {
+    margin-top: 45px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    color: #252525;
 }
