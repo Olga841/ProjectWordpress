@@ -97,3 +97,19 @@ h2.title {
     cursor: pointer;
     outline: none;
 }
+
+.promo .more .more_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.promo .more .more_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+}
