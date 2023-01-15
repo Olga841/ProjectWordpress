@@ -9,6 +9,8 @@
     margin: 0 auto;
 }
 
+/*PROMO-SECTION*/
+
 .promo {
     height: 800px;
     background: url("/img/main_bg.jpg") center center/cover no-repeat;
@@ -112,4 +114,28 @@ h2.title {
     display: block;
     margin: 0 auto;
     margin-top: 13px;
+}
+
+/*WAITING-SECTION*/
+
+.waiting .waiting_header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+    margin-top: 85px;
+}
+.waiting .waiting_subheader {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    text-align: center;
+    color: #4A4A4A;
+    margin-top: 44px;
 }
