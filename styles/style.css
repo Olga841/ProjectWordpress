@@ -204,7 +204,10 @@ h2.title {
 .finish {
     min-height: 447px;
     padding: 86px 435px 68px 435px;
-    background: url("/img/second_bg.jpg") center center/cover no-repeat;
+    background: url("../img/second_bg.jpg") center center/cover no-repeat;
+}
+.finish .finish_container {
+    width: auto;
 }
 .finish .finish_header {
     color: #EFEFEF;
